@@ -1,0 +1,11 @@
+<ul>
+    <li *ngFor = "let ob of contactList">{{ob.title}}</li>
+</ul> 
+<h3 [ngStyle]="{'color': 'tomato', 'backgroundColor' : 'blue'}" >{{message}}</h3>
+<button class= "btn btn-secondary" type="button" (click) = "createContact(this.newContact)">Add Contact</button>
+<button class= "btn btn-secondary"  (click) = "updateContact(this.uContact)">Update Contact</button>
+<button class= "btn btn-secondary"  (click) = "deleteContact(10)">delete Contact</button>
+
+<button class= "btn btn-secondary"  (click) = "searchContact(10)"> Search</button>
+<h3>{{message}}</h3>
+

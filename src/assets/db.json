@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "wuxin"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "json-server",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "wuxin"
+  },
+  "contacts": [
+    {
+      "id": 1,
+      "title": "manager",
+      "author": "wuxin"
+    },
+    {
+      "id": 2,
+      "title": "CEO",
+      "author": "Jerry"
+    },
+    {
+      "id": 3,
+      "title": "Accountant",
+      "author": "Marry"
+    },
+    {
+      "id": 6,
+      "title": "manager",
+      "author": "Helen"
+    },
+    {
+      "id": 8,
+      "title": "manager",
+      "author": "kk"
+    },
+    {
+      "id": 10,
+      "title": "TT",
+      "author": "katie"
+    }
+  ]
+}
